@@ -17,7 +17,7 @@ The grading will be as follows:
 
 100 points
 - 75 points: dervied from `checker.py` scores, which validates your code's performance versus the CS149 baseline
-    - You need to get their reference baselines (such as `render_ref_x86`) working *on the titan machine* (yes, we know it doesn't 'just work' with this Ubuntu version)
+    - You need to get their reference baselines (such as `render_ref_x86`) working *on the titan machine* (yes, we know it doesn't 'just work' with this Ubuntu version. You can get it working without `sudo` permission.)
     - Score calculated in two parts
         - 50 points: Sum all possible 82 points from render `checker.py`, `checker.py find_repeats` (5pts), `checker.py scan` (5pts), then subtract 32
         - 25 points: Beat the reference by 10x for rank100k, snowsingle, biglittle, rand1M, and micro2M (5 points each)
